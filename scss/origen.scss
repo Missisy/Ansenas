@@ -1,3 +1,11 @@
+@import "_colores.scss";
+@import "_carrito.scss";
+@import "_contactos.scss";
+@import "_nosotros.scss";
+@import "_productos.scss";
+@import "_envio.scss";
+
+
 @media (min-width:1024px){
   * {
     margin: 0%; }
@@ -149,7 +157,7 @@
       display: flex;
       flex-flow: column; }
 
-    div {
+    div{
       text-align: left;
       margin-bottom: 10%;
       margin-left: 10%;
@@ -158,10 +166,12 @@
       height: 120px;
       padding-top: 10px;
       flex-basis: 10%; }
+
     img {
       width: 200px;
       height: 200px;
-      margin: 20px 20px 20px 20px; }
+      margin: 20px 20px 20px 20px; 
+    }
   }
 
   nav {
@@ -251,11 +261,12 @@
  
   .productos {
     margin: 3% 19% 0 19%;
-    text-align: justify;
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size:20px ; }
+    font-size: 20px;
+  }
 
 
   ul h4 {
@@ -470,11 +481,12 @@
 
   .productos {
     margin: 3% 19% 0 19%;
-    text-align: justify;
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size:20px ; }
+    font-size: 20px;
+  }
 
   ul h4 {
     margin: 0 0 20px 0; }
@@ -652,4 +664,4 @@
 
 }
 
-@import url(colores.scss);
+

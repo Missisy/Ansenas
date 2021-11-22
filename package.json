@@ -1,13 +1,13 @@
 {
-  "name": "4_preentrega",
+  "name": "4preentrega",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/envio.scss css/envio.css",
+    "build-css": "node-sass --include-path scss scss/origen.scss css/destino.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
+    
   },
   "author": "",
   "license": "ISC",

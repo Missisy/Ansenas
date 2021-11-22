@@ -1,0 +1,17 @@
+
+%prod{
+    margin: 3% 19% 0 19%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+%titulos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: $azul;
+    font-size: 2.5rem
+}
